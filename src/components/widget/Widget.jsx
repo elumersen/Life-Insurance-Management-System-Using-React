@@ -6,7 +6,7 @@ import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 // import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
 import PersonOutline from "@mui/icons-material/PersonOutline";
 import ListAlt from '@mui/icons-material/ListAlt';
-import Policy from '@mui/icons-material/Policy';
+// import Policy from '@mui/icons-material/policies';
 
 
 const Widget = ({ type }) => {
@@ -75,7 +75,7 @@ const Widget = ({ type }) => {
         // isMoney: true,
         link: "See all Policies",
         icon: (
-          <Policy
+          <ListAlt
             className="icon"
             style={{
               backgroundColor: "rgba(128, 0, 128, 0.2)",
