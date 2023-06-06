@@ -4,6 +4,7 @@ import Navbar from "../../components/navbar/Navbar"
 // import Datatablecopy from "../../components/datatable/Datatable"
 // import Datatable from "../../components/datatable/Datatable"
 import Datatablepolicy from "../../components/datatablecopy/DatatablePolicy"
+// import Datatablepolicy from "../../components/datatablecopy/DatatablePolicy"
 
 
 

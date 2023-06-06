@@ -11,5 +11,5 @@ http://localhost:3000/home/
 
 # to navigate to the Agents page
 
-http://localhost:3000/home/Agents
+http://localhost:3000/home/agents
 

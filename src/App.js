@@ -21,7 +21,7 @@ function App() {
           <Route path="/">
             <Route index element={<Home />} />
             <Route path="login" element={<Login />} />
-            <Route path="/Agents">
+            <Route path="/agents">
               <Route index element={<List />} />
               <Route path=":userId" element={<Single />} />
               <Route

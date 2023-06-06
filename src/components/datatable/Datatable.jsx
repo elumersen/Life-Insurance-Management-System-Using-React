@@ -19,7 +19,7 @@ const Datatable = () => {
       renderCell: (params) => {
         return (
           <div className="cellAction">
-            <Link to="/Agents/test" style={{ textDecoration: "none" }}>
+            <Link to="/agents/test" style={{ textDecoration: "none" }}>
               <div className="viewButton">Edit</div>
             </Link>
             <div
@@ -28,7 +28,7 @@ const Datatable = () => {
             >
               Delete
             </div>
-            <Link to="/Agents/test" style={{ textDecoration: "none" }}>
+            <Link to="/agents/test" style={{ textDecoration: "none" }}>
               <div className="viewButton">View</div>
             </Link>
           </div>
@@ -40,7 +40,7 @@ const Datatable = () => {
     <div className="datatable">
       <div className="datatableTitle">
         Add New Agent
-        <Link to="/Agents/new" className="link">
+        <Link to="/agents/new" className="link">
           Add New
         </Link>
       </div>

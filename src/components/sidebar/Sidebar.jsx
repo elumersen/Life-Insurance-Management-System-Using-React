@@ -35,7 +35,7 @@ const Sidebar = () => {
           </li>
             </Link>
           <p className="title">LISTS</p>
-          <Link to="/Agents" style={{ textDecoration: "none" }}>
+          <Link to="/agents" style={{ textDecoration: "none" }}>
             <li>
               <PersonOutlineIcon className="icon" />
               <span>Agents</span>
