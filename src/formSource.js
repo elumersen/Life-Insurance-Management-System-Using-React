@@ -42,36 +42,19 @@ export const AgentInputs = [
     },
   ];
   
-  export const productInputs = [
-    {
-      id: 1,
-      label: "Title",
-      type: "text",
-      placeholder: "Apple Macbook Pro",
-    },
+  export const policiesInputs = [
+    // {
+    //   id: 1,
+    //   label: "Policy name",
+    //   type: "text",
+    //   placeholder: "Life insurance policy",
+    // },
     {
       id: 2,
-      label: "Description",
+      label: "Policy name",
       type: "text",
-      placeholder: "Description",
+      placeholder: "Life_insurance_policy",
     },
-    {
-      id: 3,
-      label: "Category",
-      type: "text",
-      placeholder: "Computers",
-    },
-    {
-      id: 4,
-      label: "Price",
-      type: "text",
-      placeholder: "100",
-    },
-    {
-      id: 5,
-      label: "Stock",
-      type: "text",
-      placeholder: "in stock",
-    },
+    
   ];
   

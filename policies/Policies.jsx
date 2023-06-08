@@ -3,21 +3,21 @@ import Sidebar from "../../components/sidebar/Sidebar"
 import Navbar from "../../components/navbar/Navbar"
 // import Datatablecopy from "../../components/datatable/Datatable"
 // import Datatable from "../../components/datatable/Datatable"
-import Datatablepolicy from "../../components/datatablecopy/DatatablePolicy"
+import Datatablepolicies from "../../components/datatablepolicies/DatatablePolicies"
 // import Datatablepolicy from "../../components/datatablecopy/DatatablePolicy"
 
 
 
-const policies = () => {
+const Policies = () => {
   return (
     <div className="list">
       <Sidebar/>
       <div className="listContainer">
         <Navbar/>
-        <Datatablepolicy/>
+        <Datatablepolicies/>
       </div>
     </div>
   )
 }
 
-export default policies;
+export default Policies;

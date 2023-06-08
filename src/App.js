@@ -1,11 +1,14 @@
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import List from "./pages/list/List";
-import Policies from "./pages/policy/policies";
+import Policies from "./pages/policies/Policies";
 import Single from "./pages/single/Single";
 import New from "./pages/new/New";
+import Forms from "./pages/forms/Forms";
+import NewPolicies from "./pages/newPolicies/NewPolicies"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { productInputs, AgentInputs } from "./formSource";
+import { policiesInputs, AgentInputs } from "./formSource";
+// import { policiesInputs, AgentInputs } from "./formSourcePolicies";
 import "./style/dark.scss";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
@@ -32,9 +35,17 @@ function App() {
             <Route path="/policies">
               <Route index element={<Policies />} />
               <Route path=":productId" element={<Single />} />
-              <Route
-                path="new"
-                element={<New inputs={productInputs} title="Add New policies" />}
+              <Route 
+                path="newPolicies"
+                element={<NewPolicies inputs={policiesInputs} title="Add New policies" />}
+              />
+            </Route>
+            <Route path="/forms">
+              <Route index element={<Forms />} />
+              {/* <Route path=":productId" element={<Single />} /> */}
+              <Route 
+                // path="newPolicies"
+                // element={<NewPolicies inputs={policiesInputs} title="Add New policies" />}
               />
             </Route>
           </Route>

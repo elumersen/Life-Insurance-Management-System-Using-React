@@ -41,7 +41,7 @@ const Sidebar = () => {
               <span>Agents</span>
             </li>
           </Link>
-          <Link to="/Forms" style={{ textDecoration: "none" }}>
+          <Link to="/forms" style={{ textDecoration: "none" }}>
             <li>
               <StoreIcon className="icon" />
               <span>Forms</span>

@@ -13,9 +13,9 @@ const List = () => {
       id: 1143155,
       product: "Acer Nitro 5",
       img: "https://m.media-amazon.com/images/I/81bc8mA3nKL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "John Smith",
-      date: "1 March",
+      AgentName: "John Smith",
       amount: 785,
+      date: "1 March",
       method: "Cash on Delivery",
       status: "Approved",
     },
@@ -23,9 +23,9 @@ const List = () => {
       id: 2235235,
       product: "Playstation 5",
       img: "https://m.media-amazon.com/images/I/31JaiPXYI8L._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Michael Doe",
-      date: "1 March",
+      AgentName: "Michael Doe",
       amount: 900,
+      date: "1 March",
       method: "Online Payment",
       status: "Pending",
     },
@@ -33,9 +33,9 @@ const List = () => {
       id: 2342353,
       product: "Redragon S101",
       img: "https://m.media-amazon.com/images/I/71kr3WAj1FL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "John Smith",
-      date: "1 March",
+      AgentName: "John Smith",
       amount: 35,
+      date: "1 March",
       method: "Cash on Delivery",
       status: "Pending",
     },
@@ -43,9 +43,9 @@ const List = () => {
       id: 2357741,
       product: "Razer Blade 15",
       img: "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Jane Smith",
-      date: "1 March",
+      AgentName: "Jane Smith",
       amount: 920,
+      date: "1 March",
       method: "Online",
       status: "Approved",
     },
@@ -53,9 +53,9 @@ const List = () => {
       id: 2342355,
       product: "ASUS ROG Strix",
       img: "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Harold Carol",
-      date: "1 March",
+      AgentName: "Harold Carol",
       amount: 2000,
+      date: "1 March",
       method: "Online",
       status: "Pending",
     },
@@ -67,9 +67,9 @@ const List = () => {
           <TableRow>
             <TableCell className="tableCell">Tracking ID</TableCell>
             <TableCell className="tableCell">Product</TableCell>
-            <TableCell className="tableCell">Customer</TableCell>
+            <TableCell className="tableCell">Agent Name</TableCell>
+            <TableCell className="tableCell">Amount of Agents</TableCell>
             <TableCell className="tableCell">Date</TableCell>
-            <TableCell className="tableCell">Amount</TableCell>
             <TableCell className="tableCell">Payment Method</TableCell>
             <TableCell className="tableCell">Status</TableCell>
           </TableRow>
@@ -84,9 +84,9 @@ const List = () => {
                   {row.product}
                 </div>
               </TableCell>
-              <TableCell className="tableCell">{row.customer}</TableCell>
-              <TableCell className="tableCell">{row.date}</TableCell>
+              <TableCell className="tableCell">{row.AgentName}</TableCell>
               <TableCell className="tableCell">{row.amount}</TableCell>
+              <TableCell className="tableCell">{row.date}</TableCell>
               <TableCell className="tableCell">{row.method}</TableCell>
               <TableCell className="tableCell">
                 <span className={`status birr-{row.status}`}>{row.status}</span>
