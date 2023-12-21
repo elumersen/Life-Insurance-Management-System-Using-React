@@ -13,3 +13,6 @@ http://localhost:3000/home/
 
 http://localhost:3000/home/Agents
 
+![image](https://github.com/elumersen/Life-Insurance-Management-System-Using-React/assets/91548860/8147d4f1-6c5b-4f7d-9240-f8cc32d43dff)
+
+
